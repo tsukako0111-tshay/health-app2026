@@ -143,7 +143,7 @@ export default function App() {
   const [weights, setWeights] = useState({"2026-05-14":64.0,"2026-05-15":63.8,"2026-05-16":63.1,"2026-05-18":63.4,"2026-05-19":63.4});
   const [bowels,  setBowels]  = useState({"2026-05-15":{count:1,state:"普通"},"2026-05-16":{count:1,state:"コロコロ"},"2026-05-18":{count:0,state:"コロコロ"}});
   const [periods, setPeriods] = useState([{start:"2026-05-07",end:"2026-05-11"}]);
-
+// const [ready,   setReady]   = useState(false);
 
   const [view,    setView]    = useState("cal");
   const [selDate, setSelDate] = useState(today());
